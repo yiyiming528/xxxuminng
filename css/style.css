@@ -162,3 +162,8 @@ body {
 .row4 .center {
   border-right: 1px solid #000;
 }
+video {
+  object-fit:scale-down;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
